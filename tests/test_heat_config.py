@@ -20,7 +20,7 @@ import tempfile
 import fixtures
 from testtools import matchers
 
-from tests.software_config import common
+from tests import common
 
 
 class HeatConfigTest(common.RunScriptTest):

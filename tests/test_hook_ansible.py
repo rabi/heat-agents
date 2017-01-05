@@ -18,7 +18,7 @@ import os
 
 import fixtures
 
-from tests.software_config import common
+from tests import common
 
 
 class HookAnsibleTest(common.RunScriptTest):

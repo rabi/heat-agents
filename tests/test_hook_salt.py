@@ -17,7 +17,7 @@ import logging
 import os
 import yaml
 
-from tests.software_config import common
+from tests import common
 
 log = logging.getLogger('test_hook_salt')
 

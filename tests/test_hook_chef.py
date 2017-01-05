@@ -19,7 +19,7 @@ import mock
 import StringIO
 import sys
 
-from tests.software_config import common
+from tests import common
 
 log = logging.getLogger('test_hook_chef')
 

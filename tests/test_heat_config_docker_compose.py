@@ -18,7 +18,7 @@ import tempfile
 import fixtures
 import yaml
 
-from tests.software_config import common
+from tests import common
 
 
 class HeatConfigDockerComposeORCTest(common.RunScriptTest):

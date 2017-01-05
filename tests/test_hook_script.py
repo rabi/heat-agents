@@ -16,7 +16,7 @@ import os
 
 import fixtures
 
-from tests.software_config import common
+from tests import common
 
 
 class HookScriptTest(common.RunScriptTest):
