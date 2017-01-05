@@ -128,8 +128,7 @@ class HeatConfigTest(common.RunScriptTest):
 
         self.heat_config_path = self.relative_path(
             __file__,
-            '../..',
-            'hot/software-config/elements',
+            '..',
             'heat-config/os-refresh-config/configure.d/55-heat-config')
 
         self.hooks_dir = self.useFixture(fixtures.TempDir())

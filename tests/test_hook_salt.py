@@ -64,8 +64,7 @@ class HookSaltTest(common.RunScriptTest):
         super(HookSaltTest, self).setUp()
         self.hook_path = self.relative_path(
             __file__,
-            '../..',
-            'hot/software-config/elements',
+            '..',
             'heat-config-salt/install.d/hook-salt.py')
 
         self.working_dir = self.useFixture(fixtures.TempDir())

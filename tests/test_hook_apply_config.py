@@ -36,8 +36,7 @@ class HookApplyConfigTest(common.RunScriptTest):
         super(HookApplyConfigTest, self).setUp()
         self.hook_path = self.relative_path(
             __file__,
-            '../..',
-            'hot/software-config/elements',
+            '..',
             'heat-config-apply-config/install.d/hook-apply-config.py')
 
         self.metadata_dir = self.useFixture(fixtures.TempDir())

@@ -51,8 +51,7 @@ class HookAnsibleTest(common.RunScriptTest):
         super(HookAnsibleTest, self).setUp()
         self.hook_path = self.relative_path(
             __file__,
-            '../..',
-            'hot/software-config/elements',
+            '..',
             'heat-config-ansible/install.d/hook-ansible.py')
 
         self.fake_tool_path = self.relative_path(

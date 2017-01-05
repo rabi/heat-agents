@@ -51,8 +51,7 @@ class HookHieraTest(common.RunScriptTest):
         super(HookHieraTest, self).setUp()
         self.hook_path = self.relative_path(
             __file__,
-            '../..',
-            'hot/software-config/elements',
+            '..',
             'heat-config-hiera/install.d/hook-hiera.py')
 
         self.hieradata_dir = self.useFixture(fixtures.TempDir()).join()
