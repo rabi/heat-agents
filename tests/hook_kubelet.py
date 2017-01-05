@@ -1,1 +1,1 @@
-../../hot/software-config/elements/heat-config-kubelet/install.d/hook-kubelet.py
+../heat-config-kubelet/install.d/hook-kubelet.py
